@@ -11,7 +11,7 @@
           <div class="col-sm-6">
             <div class="text-primary">
               <div class="h3">Saturday 10th August 2019, 7-11pm</div>
-              <div>St Mary's College, Paul Keane Gymnasium, 11 New St, Ponsonb</div>
+              <div>St Mary's College, Paul Keane Gymnasium, 11 New St, Ponsonby</div>
               <div>Gourmet Food and Entertainment</div>
             </div>
           </div>
