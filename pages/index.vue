@@ -20,7 +20,7 @@
     </header>
     <section class="container mb-5">
       <div class="row">
-        <div class="col">
+        <div class="col-sm-6">
           <p>
             The St Mary’s College PTFA is currently planning for its biennial ‘Meet the Makers’
             fundraising event, scheduled for Saturday 10 August 2019. This year’s event will be
@@ -53,12 +53,45 @@
             >jsheehan@stmaryak.school.nz</a>
           </p>
         </div>
-        <div class="col"></div>
+        <div class="col-sm-6">
+          <!-- <noscript><a href="https://www.eventbrite.co.nz/e/meet-the-makers-2019-r18-tickets-59670947410" rel="noopener noreferrer" target="_blank"></noscript>
+          <button id="eventbrite-widget-modal-trigger-59670947410" type="button">Buy Tickets</button>
+          <noscript></a>Buy Tickets on Eventbrite</noscript>-->
+          <div class="mb-3">
+            <script src="https://www.eventbrite.co.nz/static/widgets/eb_widgets.js"></script>
+
+            <script type="text/javascript">
+  var exampleCallback = function() {
+    console.log('Order complete!')
+  }
+
+  window.EBWidgets.createWidget({
+    widgetType: 'checkout',
+    eventId: '59670947410',
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-59670947410',
+    onOrderComplete: exampleCallback
+  })
+            </script>
+          </div>
+          <h3 class="h5">Download Order Form</h3>
+          <p>If you don't want to order online, you can download an order form and pay by direct deposit or cheque.</p>
+          <p>
+            <a
+              href="https://s3-ap-southeast-2.amazonaws.com/meetthemakers/MTM-2019-offline-ticket-order-form.pdf"
+              class="btn btn-primary"
+            >Download Order Form</a>
+          </p>
+          <p>
+            Order forms can be emailed to
+            <a href="mailto:cathmmp@yahoo.com">cathmmp@yahoo.com</a>
+          </p>
+        </div>
       </div>
     </section>
     <section class="mb-5 px-sm-4 border-top pt-5">
       <h2 class="h3 mb-3 text-center text-primary h2">Sponsors</h2>
-      <div class="line ml-auto mr-auto mb2"></div>
+      <div class="line ml-auto mr-auto mb-3"></div>
       <div class="logo-grid">
         <div class="logo" v-for="sponsor in publishedSponsors" :key="sponsor.id">
           <a v-if="sponsor.fields.Website" target="_blank" :href="sponsor.fields.Website">
@@ -72,7 +105,7 @@
     </section>
     <section class="mb-5 px-sm-4 border-top pt-5">
       <h2 class="h3 mb-3 text-center text-primary h2">Exhibitors</h2>
-      <div class="line ml-auto mr-auto mb2"></div>
+      <div class="line ml-auto mr-auto mb-3"></div>
       <div class="logo-grid">
         <div class="logo" v-for="exhibitor in publishedExhibitors" :key="exhibitor.id">
           <a v-if="exhibitor.fields.Website" target="_blank" :href="exhibitor.fields.Website">
