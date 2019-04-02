@@ -3,13 +3,18 @@
     <header class="bg-light mb-5">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-sm-6">
+          <div class="col-md-6">
             <div class="logo p-3 text-center">
-              <img width="400" src="@/assets/images/logo.svg" alt="Meet the Makers Logo">
+              <img
+                class="img-fluid"
+                width="400"
+                src="@/assets/images/logo.svg"
+                alt="Meet the Makers Logo"
+              >
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="text-primary">
+          <div class="col-md-6">
+            <div class="text-primary py-3">
               <div class="h3">Saturday 10th August 2019, 7-11pm</div>
               <div>St Mary's College, Paul Keane Gymnasium, 11 New St, Ponsonby</div>
               <div>Gourmet Food and Entertainment</div>
@@ -20,7 +25,7 @@
     </header>
     <section class="container mb-5">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <p>
             The St Mary’s College PTFA is currently planning for its biennial ‘Meet the Makers’
             fundraising event, scheduled for Saturday 10 August 2019. This year’s event will be
@@ -53,7 +58,7 @@
             >jsheehan@stmaryak.school.nz</a>
           </p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <!-- <noscript><a href="https://www.eventbrite.co.nz/e/meet-the-makers-2019-r18-tickets-59670947410" rel="noopener noreferrer" target="_blank"></noscript>
           <button id="eventbrite-widget-modal-trigger-59670947410" type="button">Buy Tickets</button>
           <noscript></a>Buy Tickets on Eventbrite</noscript>-->
