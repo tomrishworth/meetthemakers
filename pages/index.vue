@@ -59,7 +59,7 @@
           </p>
         </div>
         <div class="col-md-6">
-          <div class="mb-3">
+          <div class="mb-5">
             <div id="eventbrite-widget-container-59670947410"></div>
 
             <script src="https://www.eventbrite.co.nz/static/widgets/eb_widgets.js"></script>
@@ -81,6 +81,7 @@
   });
             </script>
           </div>
+          <hr>
           <h3 class="h5">Download Order Form</h3>
           <p>If you don't want to order online, you can download an order form and pay by direct deposit or cheque.</p>
           <p>
