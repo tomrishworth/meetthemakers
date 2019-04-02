@@ -41,3 +41,13 @@ a:not(.btn) {
     }
   }
 }
+
+#eventbrite-widget-container-59670947410 {
+  height: 300px !important;
+  @include media-breakpoint-up(sm) {
+    height: 275px !important;
+  }
+  button {
+    background-color: blue !important;
+  }
+}

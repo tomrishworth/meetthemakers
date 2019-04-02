@@ -59,24 +59,26 @@
           </p>
         </div>
         <div class="col-md-6">
-          <!-- <noscript><a href="https://www.eventbrite.co.nz/e/meet-the-makers-2019-r18-tickets-59670947410" rel="noopener noreferrer" target="_blank"></noscript>
-          <button id="eventbrite-widget-modal-trigger-59670947410" type="button">Buy Tickets</button>
-          <noscript></a>Buy Tickets on Eventbrite</noscript>-->
           <div class="mb-3">
+            <div id="eventbrite-widget-container-59670947410"></div>
+
             <script src="https://www.eventbrite.co.nz/static/widgets/eb_widgets.js"></script>
 
             <script type="text/javascript">
   var exampleCallback = function() {
-    console.log('Order complete!')
-  }
+    console.log('Order complete!');
+  };
 
   window.EBWidgets.createWidget({
+    // Required
     widgetType: 'checkout',
     eventId: '59670947410',
-    modal: true,
-    modalTriggerElementId: 'eventbrite-widget-modal-trigger-59670947410',
-    onOrderComplete: exampleCallback
-  })
+    iframeContainerId: 'eventbrite-widget-container-59670947410',
+
+    // Optional
+    iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+    onOrderComplete: exampleCallback // Method called when an order has successfully completed
+  });
             </script>
           </div>
           <h3 class="h5">Download Order Form</h3>
@@ -132,35 +134,35 @@ export default {
       sponsors: null,
       exhibitors: null,
       email: 'jsheehan@stmaryak.school.nz'
-    }
+    };
   },
   async asyncData({ $axios }) {
     const sponsors = await $axios.$get(
       'https://api.airtable.com/v0/appkPbXYEVwuaCVhW/Sponsors?view=Grid%20view&api_key=keyEkWnax7TUb9Cr9'
-    )
+    );
     const exhibitors = await $axios.$get(
       'https://api.airtable.com/v0/appkPbXYEVwuaCVhW/Food%20and%20Wine?view=Grid%20view&api_key=keyEkWnax7TUb9Cr9'
-    )
+    );
     return {
       sponsors: sponsors.records,
       exhibitors: exhibitors.records
-    }
+    };
   },
   computed: {
     publishedSponsors() {
-      if (!this.sponsors) return
+      if (!this.sponsors) return;
       return this.sponsors.filter(sponsor => {
-        return sponsor.fields.Published
-      })
+        return sponsor.fields.Published;
+      });
     },
     publishedExhibitors() {
-      if (!this.exhibitors) return
+      if (!this.exhibitors) return;
       return this.exhibitors.filter(exhibitor => {
-        return exhibitor.fields.Published
-      })
+        return exhibitor.fields.Published;
+      });
     }
   }
-}
+};
 </script>
 
-<style></style>
+
