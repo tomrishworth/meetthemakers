@@ -60,8 +60,29 @@
         </div>
         <div class="col-md-6">
           <h3 class="h5">Order Tickets</h3>
-          <div class="mb-5">
-            <div id="eventbrite-widget-container-59670947410"></div>
+          <div class="mb-4">
+            <button
+              class="btn btn-primary"
+              id="eventbrite-widget-modal-trigger-59670947410"
+              type="button"
+            >Buy Tickets Online</button>
+
+            <script src="https://www.eventbrite.co.nz/static/widgets/eb_widgets.js"></script>
+
+            <script type="text/javascript">
+  var exampleCallback = function() {
+    console.log('Order complete!');
+  };
+
+  window.EBWidgets.createWidget({
+    widgetType: 'checkout',
+    eventId: '59670947410',
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-59670947410',
+    onOrderComplete: exampleCallback
+  });
+            </script>
+            <!-- <div id="eventbrite-widget-container-59670947410"></div>
 
             <script src="https://www.eventbrite.co.nz/static/widgets/eb_widgets.js"></script>
 
@@ -77,10 +98,10 @@
     iframeContainerId: 'eventbrite-widget-container-59670947410',
 
     // Optional
-    iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+    iframeContainerHeight: 525, // Widget height in pixels. Defaults to a minimum of 425px if not provided
     onOrderComplete: exampleCallback // Method called when an order has successfully completed
   });
-            </script>
+            </script>-->
           </div>
           <hr class="mb-4">
           <h3 class="h5">Download Order Form</h3>
