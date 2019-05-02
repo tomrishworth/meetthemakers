@@ -46,10 +46,13 @@
           </p>
           <p>If you would like to be involved, we are currently seeking:</p>
           <p>
-            <strong>Sponsors:</strong> a variety of options are available
+            <strong>Sponsors:</strong> a variety of event sponsor packages are still available.
           </p>
           <p>
-            <strong>Exhibitors:</strong> (Food, Wine, Beer, Beverages) opportunities to showcase and sample your products.
+            <strong>Food Sponsors:</strong> opportunities for guests to sample your products with great publicity available.
+          </p>
+          <p>
+            <strong>Volunteers:</strong> for planning and also helpers on the day.
           </p>
           <p>
             For more details please email
@@ -82,26 +85,6 @@
     onOrderComplete: exampleCallback
   });
             </script>
-            <!-- <div id="eventbrite-widget-container-59670947410"></div>
-
-            <script src="https://www.eventbrite.co.nz/static/widgets/eb_widgets.js"></script>
-
-            <script type="text/javascript">
-  var exampleCallback = function() {
-    console.log('Order complete!');
-  };
-
-  window.EBWidgets.createWidget({
-    // Required
-    widgetType: 'checkout',
-    eventId: '59670947410',
-    iframeContainerId: 'eventbrite-widget-container-59670947410',
-
-    // Optional
-    iframeContainerHeight: 525, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-    onOrderComplete: exampleCallback // Method called when an order has successfully completed
-  });
-            </script>-->
           </div>
           <hr class="mb-4">
           <h3 class="h5">Download Order Form</h3>
