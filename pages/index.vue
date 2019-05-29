@@ -26,31 +26,10 @@
     <section class="container mb-5">
       <div class="row">
         <div class="col-md-6">
-          <p>
-            The St Mary’s College PTFA is currently planning for its biennial ‘Meet the Makers’
-            fundraising event, scheduled for Saturday 10 August 2019. This year’s event will be
-            the fifth Meet the Makers, an event which has developed and grown over several
-            years of successful partnerships with local businesses and support from the wider St
-            Mary’s College community.
-          </p>
-          <p>
-            Meet the Makers is a wonderful social evening for guests where they can sample the
-            very best wine, beer, and beverages, complemented by delicious food,
-            entertainment and a live auction.
-          </p>
-          <p>
-            With a long history of successful fundraising to support the school’s goal to deliver
-            quality education and resources for its students, Meet the Makers 2019 goal is to
-            raise funds for the construction of a school playground for the benefit of all students
-            at St Mary’s College.
-          </p>
+          <p>The St Mary’s College PTFA are planning for their biennial ‘Meet the Makers’ fundraising event, scheduled for Saturday 10 August 2019. This year’s event will be the fifth Meet the Makers, an event which has developed and grown over several years of successful partnerships with local businesses and support from the wider St Mary’s College community.</p>
+          <p>Meet the Makers is a wonderful social evening where guests can sample the very best food, wine and beer all complemented by delicious food, a live auction, raffles, entertainment with a live DJ and a very special guest MC.</p>
+          <p>The Meet the Makers goal for 2019 is to raise funds for the construction of a school playground to benefit all students at St Mary’s College.</p>
           <p>If you would like to be involved, we are currently seeking:</p>
-          <p>
-            <strong>Sponsors:</strong> a variety of event sponsor packages are still available.
-          </p>
-          <p>
-            <strong>Food Sponsors:</strong> opportunities for guests to sample your products with great publicity available.
-          </p>
           <p>
             <strong>Volunteers:</strong> for planning and also helpers on the day.
           </p>
